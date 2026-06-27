@@ -1,0 +1,15 @@
+# Core framework has no hard dependencies (mock backend works out of the box).
+# Install extras for real backends and agentic mode:
+
+# OpenAI backend
+openai>=1.0.0
+
+# Google Gemini backend
+google-genai>=0.3.0
+
+# Agentic audit mode (web search / scraping)
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+
+# Development
+pytest>=7.0.0
